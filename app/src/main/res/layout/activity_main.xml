@@ -8,28 +8,35 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Team A" />
+        android:text="Team A"
+        android:gravity="center_horizontal"
+        android:padding="4dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0" />
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:padding="4dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+ 3 points" />
+        android:text="+ 3 points"
+        android:layout_margin="8dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+ 2 points" />
+        android:text="+ 2 points"
+        android:layout_margin="8dp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+ 1 point" />
+        android:text="+ 1 point"
+        android:layout_margin="8dp"/>
 
 </LinearLayout>
