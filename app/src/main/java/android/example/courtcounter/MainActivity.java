@@ -33,18 +33,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addThreeForTeamB(View v){
-        scoreTeamB = scoreTeamA +3;
-        displayForTeamA(scoreTeamA);
+        scoreTeamB = scoreTeamB +3;
+        displayForTeamB(scoreTeamB);
     }
 
     public void addTwoForTeamB(View v){
-        scoreTeamB = scoreTeamA +2;
-        displayForTeamA(scoreTeamA);
+        scoreTeamB = scoreTeamB +2;
+        displayForTeamB(scoreTeamB);
     }
 
     public void addOneForTeamB(View v){
         scoreTeamB = scoreTeamB +1;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
     }
 
     /**
